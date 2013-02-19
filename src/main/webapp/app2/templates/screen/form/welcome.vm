@@ -1,0 +1,2 @@
+$page.setTitle("Welcome, $newUser.getId()")
+<p>Welcome, $newUser.getId()!</p>

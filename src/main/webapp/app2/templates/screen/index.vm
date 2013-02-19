@@ -1,0 +1,27 @@
+$page.setTitle("It works.")
+
+<h1>It works.</h1>
+
+<ol>
+<li>
+	<h2>My Test</h2>
+	
+	#set($url = "$app2Link.setTarget('mine/mytest.htm')")
+	<a href="$url">$url</a>
+</li>
+
+<li>
+	<h2>Form Test</h2>
+	
+	#set($url = "$app2Link.setTarget('form/register.htm')")
+	<a href="$url">$url</a>
+</li>
+
+<li>
+	<h2>Form view Test</h2>
+	
+	#set($url = "$app2Link.setTarget('form/view_user.htm')")
+	<a href="$url">$url</a>
+</li>
+
+</ol>
